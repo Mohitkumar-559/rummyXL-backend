@@ -1,0 +1,86 @@
+stages:
+  - deploy
+  - build-image
+
+docker_build_development:
+  stage: build-image
+  tags:
+    - kube-ssh
+  script:
+    - cp /home/config/dev/prithvi-rummy-nodejs/config.json .
+    - cp /home/config/dev/prithvi-rummy-nodejs/.env .    
+    - cp /home/config/dev/prithvi-rummy-nodejs/Dockerfile .
+    - cp /home/config/dev/prithvi-rummy-nodejs/node-rolling-update.yml .
+    - cp -r /home/config/dev/prithvi-rummy-nodejs/certificate .
+    - docker build -f Dockerfile -t $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA .
+    - echo $CI_REGISTRY_IMAGE
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA
+    - DOCKER_IMG="$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA"
+    - echo $DOCKER_IMG
+    - sed -i "s|gitlab.*|${DOCKER_IMG}|" node-rolling-update.yml
+    - kubectl apply -f node-rolling-update.yml
+  after_script:
+    - curl --request DELETE --data 'name_regex_delete=.*' --data "keep_n=3" --header "$PRIVATE $TOKEN" "http://gitlab.artoon.in/api/v4/projects/4239/registry/repositories/89/tags"
+  when: manual
+  only:
+    - development  
+
+docker_build_development_v2:
+  stage: build-image
+  tags:
+    - kube-ssh
+  script:
+    - cp /home/config/dev/prithvi-rummy-nodejs/config.json .
+    - cp /home/config/dev/prithvi-rummy-nodejs/.env .    
+    - cp /home/config/dev/prithvi-rummy-nodejs/Dockerfile .
+    - cp /home/config/dev/prithvi-rummy-nodejs/node-rolling-update.yml .
+    - cp -r /home/config/dev/prithvi-rummy-nodejs/certificate .
+    - docker build -f Dockerfile -t $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA .
+    - echo $CI_REGISTRY_IMAGE
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA
+    - DOCKER_IMG="$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA"
+    - echo $DOCKER_IMG
+    - sed -i "s|gitlab.*|${DOCKER_IMG}|" node-rolling-update.yml
+    - kubectl apply -f node-rolling-update.yml
+  after_script:
+    - curl --request DELETE --data 'name_regex_delete=.*' --data "keep_n=3" --header "$PRIVATE $TOKEN" "http://gitlab.artoon.in/api/v4/projects/4239/registry/repositories/89/tags"
+  when: manual
+  only:
+    - development_v2
+
+ 
+docker_stage_build:
+  stage: deploy
+  tags:
+    - rummyxl-node-build
+  environment:
+    name: staging
+    url: https://stagegame.rummyxl.com
+  script:
+    - cp /opt/build-resources/rummyxl-staging/* ./
+    - /usr/local/bin/aws s3 cp rummyxl-staging-appspec.json s3://rummyxl-build-res/
+    - source build.sh
+  after_script:
+    - source cleanup.sh
+  when: manual
+  only: 
+    - staging
+    
+docker_prod_build:
+  stage: deploy
+  tags:
+    - rummyxl-node-build
+  environment:
+    name: production
+    url: https://game.rummyxl.com
+  script:
+    - cp /opt/build-resources/rummyxl/* ./
+    - /usr/local/bin/aws s3 cp rummyxl-appspec.json s3://rummyxl-build-res/
+    - source build.sh
+  after_script:
+    - source cleanup.sh
+  when: manual
+  only: 
+    - main

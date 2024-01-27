@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 200;
+            src: url(./fonts/Roboto-Thin.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 300;
+            src: url(./fonts/Roboto-Light.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 400;
+            src: url(./fonts/Roboto-Regular.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 500;
+            src: url(./fonts/Roboto-Medium.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 700;
+            src: url(./fonts/Roboto-Bold.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 900;
+            src: url(./fonts/Roboto-Black.woff2) format("woff2");
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        ul,
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Roboto';
+        }
+
+        .container {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .RummyXL {
+            padding-bottom: 30px;
+            max-width: 100%;
+            display: block;
+        }
+
+        .container tbody tr td>p {
+            padding-bottom: 20px;
+            line-height: 150%;
+        }
+
+        .query_at {
+            padding-bottom: 60px;
+        }
+
+        @media (max-width: 768px) {
+
+            .RummyXL,
+            .container tbody tr td>p {
+                padding-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table class="container">
+        <thead>
+            <tr>
+                <td>
+                    <img src="https://rummyxl-cms-data.s3.ap-south-1.amazonaws.com/images/poster_3.png"
+                        alt="RummyXL" class="RummyXL">
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <p>Dear Player,</p>
+                    <p>Your KYC has been successfully completed.
+                        <!-- Click the link <a
+                            href="/https://nrh9x.app.goo.gl/jcQ9"> https://nrh9x.app.goo.gl/jcQ9</a> to --> Continue
+                        playing on RummyXL.
+                    </p>
+                    <p class="query_at">
+                        For any query please write to us at <a href="support@RummyXL.com">support@RummyXL.com</a></p>
+                    <p>Team RummyXL</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

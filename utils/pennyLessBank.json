@@ -1,0 +1,753 @@
+[
+      {
+        "Id": 1,
+        "Bank": "Abasaheb Patil Rendal Sahakari Bank Limited Rendal",
+        "Ifsc": "IBKL"
+      },
+      {
+        "Id": 2,
+        "Bank": "Abhinandan Urban Coop Bank Amravati",
+        "Ifsc": "HDFC"
+      },
+      {
+        "Id": 3,
+        "Bank": "Abhyudaya Co-Operative Bank",
+        "Ifsc": "ABHY"
+      },
+      {
+        "Id": 4,
+        "Bank": "Adarsh Mahila Nagari Sahkari Bank",
+        "Ifsc": "YESB"
+      },
+      {
+        "Id": 5,
+        "Bank": "Adilabad Dccb",
+        "Ifsc": "APBL"
+      },
+      {
+        "Id": 6,
+        "Bank": "Ahmedabad Merc Co-Op Bank Ltd",
+        "Ifsc": "AMCB"
+      },
+      {
+        "Id": 7,
+        "Bank": "Ahmednagar Shahar Sahakari Bank Maryadit",
+        "Ifsc": "SVCB"
+      },
+      {
+        "Id": 8,
+        "Bank": "Airtel Payments Bank Limited",
+        "Ifsc": "AIRP"
+      },
+      {
+        "Id": 9,
+        "Bank": "Aman Sahakari Bank Ltd",
+        "Ifsc": "ICIC"
+      },
+      {
+        "Id": 10,
+        "Bank": "Ambarnath Jai-Hind Co-Op.Bank Ltd.",
+        "Ifsc": "AJHC"
+      },
+      {
+        "Id": 11,
+        "Bank": "Amreli Jilla Madhyastha Sahakari Bank Ltd",
+        "Ifsc": "GSCB"
+      },
+      {
+        "Id": 12,
+        "Bank": "Andhra Pradesh Grameena Vikas Bank",
+        "Ifsc": "APGV"
+      },
+      {
+        "Id": 13,
+        "Bank": "Andhra Pradesh Mahesh Co- Operative Urban Bank Ltd.",
+        "Ifsc": "APMC"
+      },
+      {
+        "Id": 14,
+        "Bank": "Andhra Pragathi Grameena Bank",
+        "Ifsc": "APGB"
+      },
+      {
+        "Id": 15,
+        "Bank": "Angul Central Co-Op Bank Ltd",
+        "Ifsc": "ORCB"
+      },
+      {
+        "Id": 16,
+        "Bank": "Apna Sahakri Bank Ltd.",
+        "Ifsc": "ASBL"
+      },
+      {
+        "Id": 17,
+        "Bank": "Arunachal Pradesh Rural Bank",
+        "Ifsc": "SBIN"
+      },
+      {
+        "Id": 18,
+        "Bank": "Au Small Finance Bank",
+        "Ifsc": "AUBL"
+      },
+      {
+        "Id": 19,
+        "Bank": "Axis Bank",
+        "Ifsc": "UTIB"
+      },
+      {
+        "Id": 20,
+        "Bank": "Bandhan Bank",
+        "Ifsc": "BDBL"
+      },
+      {
+        "Id": 21,
+        "Bank": "Bank Of Bahrain And Kuwait B.S.C",
+        "Ifsc": "BBKM"
+      },
+      {
+        "Id": 22,
+        "Bank": "Bank Of Baroda",
+        "Ifsc": "BARB"
+      },
+      {
+        "Id": 23,
+        "Bank": "Bank Of India",
+        "Ifsc": "BKID"
+      },
+      {
+        "Id": 24,
+        "Bank": "Bank Of Maharashtra",
+        "Ifsc": "MAHB"
+      },
+      {
+        "Id": 25,
+        "Bank": "Bassein Catholic Co-Op Bank Ltd",
+        "Ifsc": "BACB"
+      },
+      {
+        "Id": 26,
+        "Bank": "Bhadradri Cooperative Urban Bank Ltd",
+        "Ifsc": "SRCB"
+      },
+      {
+        "Id": 27,
+        "Bank": "Bhagini Nivedita Sahkari Bank",
+        "Ifsc": "BNSB"
+      },
+      {
+        "Id": 28,
+        "Bank": "Bhatpara Naihati Coop Bank",
+        "Ifsc": "WBSC"
+      },
+      {
+        "Id": 29,
+        "Bank": "Bhopal Co Operative Central Bank Ltd",
+        "Ifsc": "CBIN"
+      },
+      {
+        "Id": 30,
+        "Bank": "Bnp Paribas",
+        "Ifsc": "BNPA"
+      },
+      {
+        "Id": 31,
+        "Bank": "Canara Bank",
+        "Ifsc": "CNRB"
+      },
+      {
+        "Id": 32,
+        "Bank": "Capital Small Finance Bank Ltd",
+        "Ifsc": "CLBL"
+      },
+      {
+        "Id": 33,
+        "Bank": "Catholic Syrian Bank",
+        "Ifsc": "CSBK"
+      },
+      {
+        "Id": 34,
+        "Bank": "Chaitanya Godavari Grameena Bank",
+        "Ifsc": "ANDB"
+      },
+      {
+        "Id": 35,
+        "Bank": "Chennai Central Co-Operative Bank Ltd.",
+        "Ifsc": "TNSC"
+      },
+      {
+        "Id": 36,
+        "Bank": "Chhattisgarh Rajya Gramin Bank",
+        "Ifsc": "CRGB"
+      },
+      {
+        "Id": 37,
+        "Bank": "Citibank N A (Citi Retail)",
+        "Ifsc": "CITI"
+      },
+      {
+        "Id": 38,
+        "Bank": "Citizen Credit Co-Operative Bank Ltd",
+        "Ifsc": "CCBL"
+      },
+      {
+        "Id": 39,
+        "Bank": "City Union Bank Ltd",
+        "Ifsc": "CIUB"
+      },
+      {
+        "Id": 40,
+        "Bank": "Coastal Local Area Bank Ltd",
+        "Ifsc": "COAS"
+      },
+      {
+        "Id": 41,
+        "Bank": "Cosmos Bank",
+        "Ifsc": "COSB"
+      },
+      {
+        "Id": 42,
+        "Bank": "Dattatraya Maharaj Kalambe Jaoli Sahakari",
+        "Ifsc": "DMKJ"
+      },
+      {
+        "Id": 43,
+        "Bank": "Dbs Bank India Limited",
+        "Ifsc": "DBSS"
+      },
+      {
+        "Id": 44,
+        "Bank": "Deogiri Nagari Sahakari Bank Ltd Aurangabad",
+        "Ifsc": "DEOB"
+      },
+      {
+        "Id": 45,
+        "Bank": "Development Credit Bank Ltd",
+        "Ifsc": "DCBL"
+      },
+      {
+        "Id": 46,
+        "Bank": "Dhanalaxmi Bank",
+        "Ifsc": "DLXB"
+      },
+      {
+        "Id": 47,
+        "Bank": "District Co-Operative Bank Pilibhit",
+        "Ifsc": "UPCB"
+      },
+      {
+        "Id": 48,
+        "Bank": "Durgapur Steel Peoples Coop Bank Ltd",
+        "Ifsc": "DURG"
+      },
+      {
+        "Id": 49,
+        "Bank": "Equitas Small Finance Bank Ltd",
+        "Ifsc": "ESFB"
+      },
+      {
+        "Id": 50,
+        "Bank": "Esaf Small Finance Bank Ltd",
+        "Ifsc": "ESMF"
+      },
+      {
+        "Id": 51,
+        "Bank": "Federel Bank",
+        "Ifsc": "FDRL"
+      },
+      {
+        "Id": 52,
+        "Bank": "Fincare Small Finance Bank Limited",
+        "Ifsc": "FSFB"
+      },
+      {
+        "Id": 53,
+        "Bank": "Fino Payment Bank Ltd",
+        "Ifsc": "FINO"
+      },
+      {
+        "Id": 54,
+        "Bank": "Gp Parsik Sahakari Bank Ltd",
+        "Ifsc": "PJSB"
+      },
+      {
+        "Id": 55,
+        "Bank": "Gs Mahanagar Co-Operative Bank Ltd",
+        "Ifsc": "MCBL"
+      },
+      {
+        "Id": 56,
+        "Bank": "Idfc Bank",
+        "Ifsc": "IDFB"
+      },
+      {
+        "Id": 57,
+        "Bank": "India Post Payments Bank",
+        "Ifsc": "IPOS"
+      },
+      {
+        "Id": 58,
+        "Bank": "Indusind Bank",
+        "Ifsc": "INDB"
+      },
+      {
+        "Id": 59,
+        "Bank": "Irinjakaluda Town Coop Bank Ltd",
+        "Ifsc": "ITBL"
+      },
+      {
+        "Id": 60,
+        "Bank": "Jalagaon People'S Coop Bank Ltd",
+        "Ifsc": "JPCB"
+      },
+      {
+        "Id": 61,
+        "Bank": "Jalgaon Janata Sahkari Bank Ltd",
+        "Ifsc": "JJSB"
+      },
+      {
+        "Id": 62,
+        "Bank": "Jammu & Kashmir Bank",
+        "Ifsc": "JAKA"
+      },
+      {
+        "Id": 63,
+        "Bank": "Jana Small Finance Bank",
+        "Ifsc": "JSFB"
+      },
+      {
+        "Id": 64,
+        "Bank": "Janakalyan Sahakari Bank Ltd",
+        "Ifsc": "JSBL"
+      },
+      {
+        "Id": 65,
+        "Bank": "Janaseva Sahakari Bank (Borivli) Ltd",
+        "Ifsc": "JASB"
+      },
+      {
+        "Id": 66,
+        "Bank": "Janaseva Sahakari Bank Ltd Pune",
+        "Ifsc": "JANA"
+      },
+      {
+        "Id": 67,
+        "Bank": "Janata Sahakari Bank Ltd Pune",
+        "Ifsc": "JSBP"
+      },
+      {
+        "Id": 68,
+        "Bank": "Janatha Seva Cooperative Bank Ltd",
+        "Ifsc": "JTSC"
+      },
+      {
+        "Id": 69,
+        "Bank": "Jio Payments Bank Limited",
+        "Ifsc": "JIOP"
+      },
+      {
+        "Id": 70,
+        "Bank": "Kalupur Commercial Co-Op Bank",
+        "Ifsc": "KCCB"
+      },
+      {
+        "Id": 71,
+        "Bank": "Karnataka Bank Ltd",
+        "Ifsc": "KARB"
+      },
+      {
+        "Id": 72,
+        "Bank": "Karnataka Vikas Grameena Bank",
+        "Ifsc": "KVGB"
+      },
+      {
+        "Id": 73,
+        "Bank": "Karur Vysya Bank",
+        "Ifsc": "KVBL"
+      },
+      {
+        "Id": 74,
+        "Bank": "Kokan Mercantile Co-Operative Bank Ltd",
+        "Ifsc": "KKBK"
+      },
+      {
+        "Id": 75,
+        "Bank": "Maharashtra Gramin Bank",
+        "Ifsc": "MAHG"
+      },
+      {
+        "Id": 76,
+        "Bank": "Maharashtra State Co-Operative Bank Ltd",
+        "Ifsc": "MSCI"
+      },
+      {
+        "Id": 77,
+        "Bank": "Mahesh Sahakari Bank Ltd Pune",
+        "Ifsc": "MSBL"
+      },
+      {
+        "Id": 78,
+        "Bank": "Manipur Rural Bank",
+        "Ifsc": "PUNB"
+      },
+      {
+        "Id": 79,
+        "Bank": "Model Co-Operative Bank Ltd",
+        "Ifsc": "MDBK"
+      },
+      {
+        "Id": 80,
+        "Bank": "Nainital Bank",
+        "Ifsc": "NTBL"
+      },
+      {
+        "Id": 81,
+        "Bank": "Nsdl Payments Bank",
+        "Ifsc": "NSPB"
+      },
+      {
+        "Id": 82,
+        "Bank": "Odisha Gramya Bank",
+        "Ifsc": "IOBA"
+      },
+      {
+        "Id": 83,
+        "Bank": "Pandharpur Urban Co-Op Bank Ltd",
+        "Ifsc": "PUCB"
+      },
+      {
+        "Id": 84,
+        "Bank": "Paytm Payments Bank Ltd",
+        "Ifsc": "PYTM"
+      },
+      {
+        "Id": 85,
+        "Bank": "Prime Co-Operative Bank Ltd.",
+        "Ifsc": "PMEC"
+      },
+      {
+        "Id": 86,
+        "Bank": "Puduvai Bharthier Gramin Bank",
+        "Ifsc": "IDIB"
+      },
+      {
+        "Id": 87,
+        "Bank": "Pusad Urban Cooperative Bank Ltd",
+        "Ifsc": "PUSD"
+      },
+      {
+        "Id": 88,
+        "Bank": "Rajarambapu Sahakari Bank Ltd Peth",
+        "Ifsc": "RRBP"
+      },
+      {
+        "Id": 89,
+        "Bank": "Rajarshi Shahu Sahakari Bank Ltd",
+        "Ifsc": "RSSB"
+      },
+      {
+        "Id": 90,
+        "Bank": "Rajasthan Marudhara Gramin Bank",
+        "Ifsc": "RMGB"
+      },
+      {
+        "Id": 91,
+        "Bank": "Rajgurunagar Sahkari Bank Ltd",
+        "Ifsc": "RSBL"
+      },
+      {
+        "Id": 92,
+        "Bank": "Rajkot Nagarik Sahakari Bank Ltd.",
+        "Ifsc": "RNSB"
+      },
+      {
+        "Id": 93,
+        "Bank": "Ratnakar Bank Limited",
+        "Ifsc": "RATN"
+      },
+      {
+        "Id": 94,
+        "Bank": "Samarth Sahakari Bank Ltd., Solapur",
+        "Ifsc": "SBLS"
+      },
+      {
+        "Id": 95,
+        "Bank": "Sant Sopankaka Sahakari Bank Ltd.",
+        "Ifsc": "SANT"
+      },
+      {
+        "Id": 96,
+        "Bank": "Saraspur Nagarik Co Operative Bank Ltd",
+        "Ifsc": "SNBK"
+      },
+      {
+        "Id": 97,
+        "Bank": "Sardar Bhilwada Pardi Peoples Cop",
+        "Ifsc": "RSCB"
+      },
+      {
+        "Id": 98,
+        "Bank": "Saurashtra Gramin Bank",
+        "Ifsc": "SGBA"
+      },
+      {
+        "Id": 99,
+        "Bank": "Sbm Bank (India) Limited",
+        "Ifsc": "STCB"
+      },
+      {
+        "Id": 100,
+        "Bank": "Shivalik Small Finance Bank Limited",
+        "Ifsc": "SMCB"
+      },
+      {
+        "Id": 101,
+        "Bank": "Shree Kadi Nagarik Sahakari Bank Ltd",
+        "Ifsc": "SKNB"
+      },
+      {
+        "Id": 102,
+        "Bank": "Shri Chatrapati Shivaji Maharaj Sahakari Bank Niyamith Gulbarga",
+        "Ifsc": "IBLK"
+      },
+      {
+        "Id": 103,
+        "Bank": "Shri Chhatrapati Rajarshi Shahu Urban Co-Op Bank",
+        "Ifsc": "CRUB"
+      },
+      {
+        "Id": 104,
+        "Bank": "Shri Veershaiv Co-Op Bank Kolhapur",
+        "Ifsc": "SVSH"
+      },
+      {
+        "Id": 105,
+        "Bank": "Sindhudurg Dccb",
+        "Ifsc": "SIDC"
+      },
+      {
+        "Id": 106,
+        "Bank": "Smriti Nagrik Sahakari Bank",
+        "Ifsc": "SMNB"
+      },
+      {
+        "Id": 107,
+        "Bank": "South Indian Bank",
+        "Ifsc": "SIBL"
+      },
+      {
+        "Id": 108,
+        "Bank": "Surat National Coop Bank Ltd",
+        "Ifsc": "SDCB"
+      },
+      {
+        "Id": 109,
+        "Bank": "Suryoday Small Finance Bank Ltd",
+        "Ifsc": "SURY"
+      },
+      {
+        "Id": 110,
+        "Bank": "Telangana State Co Operative Apex Bank Ltd",
+        "Ifsc": "TSAB"
+      },
+      {
+        "Id": 111,
+        "Bank": "Textile Traders Coop Bank Ltd",
+        "Ifsc": "TTCB"
+      },
+      {
+        "Id": 112,
+        "Bank": "Thane Bharat Sahakari Bank Ltd.",
+        "Ifsc": "TBSB"
+      },
+      {
+        "Id": 113,
+        "Bank": "The Ahmednagar Merchants Co-Op Bank Ltd",
+        "Ifsc": "AMDN"
+      },
+      {
+        "Id": 114,
+        "Bank": "The Ajara Urban Coop Bank Ajara",
+        "Ifsc": "AJAR"
+      },
+      {
+        "Id": 115,
+        "Bank": "The Akola District Central Cooperative Bank Ltd",
+        "Ifsc": "ADCC"
+      },
+      {
+        "Id": 116,
+        "Bank": "The Akola Janata Commercial Co-Operative Bank Ltd",
+        "Ifsc": "AKJB"
+      },
+      {
+        "Id": 117,
+        "Bank": "The Akola Urban Coop Bank",
+        "Ifsc": "TAUB"
+      },
+      {
+        "Id": 118,
+        "Bank": "The Banaskantha Mercantile Coop Bank",
+        "Ifsc": "TBMC"
+      },
+      {
+        "Id": 119,
+        "Bank": "The Baramati Sahakari Bank",
+        "Ifsc": "BARA"
+      },
+      {
+        "Id": 120,
+        "Bank": "The Bharat Co-Operative Bank Ltd",
+        "Ifsc": "BCBM"
+      },
+      {
+        "Id": 121,
+        "Bank": "The Darussalam Co-Op Urban Bank Ltd",
+        "Ifsc": "DCUB"
+      },
+      {
+        "Id": 122,
+        "Bank": "The Gadchiroli District Central Cooperative Bank",
+        "Ifsc": "GDCB"
+      },
+      {
+        "Id": 123,
+        "Bank": "The Himachal Pradesh St Co-Op Bank",
+        "Ifsc": "HPSC"
+      },
+      {
+        "Id": 124,
+        "Bank": "The Hongkong & Shanghai Banking Corporation Ltd(Hsbc)",
+        "Ifsc": "HSBC"
+      },
+      {
+        "Id": 125,
+        "Bank": "The Kalyan Janata Sahakari Bank Ltd",
+        "Ifsc": "KJSB"
+      },
+      {
+        "Id": 126,
+        "Bank": "The Kanara Dccb Ltd Sirsi",
+        "Ifsc": "KSCB"
+      },
+      {
+        "Id": 127,
+        "Bank": "The Kolhapur Urban Coop Bank",
+        "Ifsc": "KOLH"
+      },
+      {
+        "Id": 128,
+        "Bank": "The Malad Sahakari Bank Ltd",
+        "Ifsc": "TMSB"
+      },
+      {
+        "Id": 129,
+        "Bank": "The Mumbai Mahanagarpalika Shikshan Vibhag Sahakari Bank Ltd",
+        "Ifsc": "MDCB"
+      },
+      {
+        "Id": 130,
+        "Bank": "The Municipal Co-Op Bank Ltd",
+        "Ifsc": "MUBL"
+      },
+      {
+        "Id": 131,
+        "Bank": "The Muslim Co Operative Bank Ltd",
+        "Ifsc": "MSLM"
+      },
+      {
+        "Id": 132,
+        "Bank": "The Nasik Merchants Cooperative Bank Ltd",
+        "Ifsc": "NMCB"
+      },
+      {
+        "Id": 133,
+        "Bank": "The Navnirman Co-Op Bank",
+        "Ifsc": "NVNM"
+      },
+      {
+        "Id": 134,
+        "Bank": "The Satara Shakari Bank Ltd",
+        "Ifsc": "TSSB"
+      },
+      {
+        "Id": 135,
+        "Bank": "The Surat Peoples Co Op. Bank Ltd",
+        "Ifsc": "SPCB"
+      },
+      {
+        "Id": 136,
+        "Bank": "The Sutex Co-Op.Bank Ltd.",
+        "Ifsc": "SUTB"
+      },
+      {
+        "Id": 137,
+        "Bank": "The Urban Coop Bank 1758 Perinthalmanna",
+        "Ifsc": "URBN"
+      },
+      {
+        "Id": 138,
+        "Bank": "The Vasai Vikas Co-Op Bank Ltd",
+        "Ifsc": "VVSB"
+      },
+      {
+        "Id": 139,
+        "Bank": "The Vishweshwar Sahakari Bank Ltd",
+        "Ifsc": "VSBL"
+      },
+      {
+        "Id": 140,
+        "Bank": "The Zoroastrian Co-Operative Bank Ltd",
+        "Ifsc": "ZCBL"
+      },
+      {
+        "Id": 141,
+        "Bank": "Thrissur District Cooperative Bank Ltd",
+        "Ifsc": "THRS"
+      },
+      {
+        "Id": 142,
+        "Bank": "Tjsb Sahakari Bank Ltd",
+        "Ifsc": "TJSB"
+      },
+      {
+        "Id": 143,
+        "Bank": "Tumkur Grain Merchants Cooperative Bank",
+        "Ifsc": "TGMB"
+      },
+      {
+        "Id": 144,
+        "Bank": "Uco Bank",
+        "Ifsc": "UCBA"
+      },
+      {
+        "Id": 145,
+        "Bank": "Udaipur Urban Co-Operative Bank",
+        "Ifsc": "UUCB"
+      },
+      {
+        "Id": 146,
+        "Bank": "Ujjivan Small Finance Bank Ltd",
+        "Ifsc": "UJVN"
+      },
+      {
+        "Id": 147,
+        "Bank": "Utkarsh Small Finance Bank Ltd",
+        "Ifsc": "UTKS"
+      },
+      {
+        "Id": 148,
+        "Bank": "Varachha Co-Op Bank Ltd",
+        "Ifsc": "VARA"
+      },
+      {
+        "Id": 149,
+        "Bank": "Vasai Janata Sahakari Bank Ltd",
+        "Ifsc": "VASJ"
+      },
+      {
+        "Id": 150,
+        "Bank": "Vijay Coop Bank Ltd",
+        "Ifsc": "VCOB"
+      }
+]
+  

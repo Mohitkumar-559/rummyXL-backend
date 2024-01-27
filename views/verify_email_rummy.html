@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 200;
+            src: url(./fonts/Roboto-Thin.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 300;
+            src: url(./fonts/Roboto-Light.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 400;
+            src: url(./fonts/Roboto-Regular.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 500;
+            src: url(./fonts/Roboto-Medium.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 700;
+            src: url(./fonts/Roboto-Bold.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 900;
+            src: url(./fonts/Roboto-Black.woff2) format("woff2");
+        }
+
+        .rummy_verify_email_body_section * {
+            font-family: 'Roboto';
+            box-sizing: border-box;
+        }
+
+        .rummy_verify_email_body_section {
+            margin: 0;
+        }
+
+        .rummy_verify_email_body_sec {
+            width: 100%;
+        }
+
+        .rummy_verify_email_banner_section {
+            background: url(https://artoon-pinochle.s3.us-east-1.amazonaws.com/prithvi_rummy/banner_bg_veryfy_email.png) no-repeat;
+            background-size: cover;
+        }
+
+        .rummy_verify_email_banner_section .container {
+            padding: 100px 0;
+        }
+
+        .rummy_verify_email_banner_section h1 {
+            color: #ffd652;
+            text-transform: capitalize;
+            font-size: 40px;
+            margin: 0;
+            text-align: center;
+        }
+
+        .warning_box_sec {
+            max-width: 960px;
+            max-height: 350px;
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+
+        .warning_box_part {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+            padding: 75px 20px 95px 20px;
+        }
+
+        .warning_sign_sec {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(180deg, #f34a61, #a30021);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .warning_sign_sec>i {
+            font-size: 30px;
+            color: white;
+        }
+
+        .warning_box_part>.try_again_txt {
+            text-align: center;
+            padding: 30px 0;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        .back_to_home_btn {
+            width: 100%;
+            max-width: 135px;
+            height: 40px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            background: linear-gradient(180deg, #f34a61, #a30021);
+            color: #fff;
+            font-weight: 700;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.4s ease;
+        }
+
+        .back_to_home_btn:hover {
+            background: linear-gradient(360deg, #f34a61, #a30021);
+        }
+
+        .warning_box_part>a {
+            text-decoration: none;
+        }
+
+        .warning_box {
+            margin-top: -40px;
+            padding: 0 20px;
+        }
+
+        @media(max-width: 1200px) {
+            .warning_box_part {
+                padding: 50px 20px 50px 20px;
+            }
+        }
+
+        @media(max-width: 1024px) {
+            .warning_box_part {
+                padding: 30px 10px 30px 10px;
+            }
+
+            .warning_box_part>.try_again_txt {
+                padding: 25px 0;
+            }
+
+            .rummy_verify_email_banner_section h1 {
+                font-size: 35px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .warning_box_part>.try_again_txt {
+                padding: 20px 0;
+            }
+
+            .rummy_verify_email_banner_section h1 {
+                font-size: 30px;
+            }
+
+            .warning_box {
+                margin-top: -50px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="rummy_verify_email_body_section">
+    <table class="rummy_verify_email_body_sec">
+        <thead>
+            <tr>
+                <th>
+                    <section class="rummy_verify_email_banner_section">
+                        <div class="container">
+                            <h1>Verify Email</h1>
+                        </div>
+                    </section>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <section class="warning_box">
+                        <div class="container">
+                            <div class="warning_box_sec">
+                                <div class="warning_box_part">
+                                    <div class="warning_sign_sec">
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="try_again_txt">Sorry your email verification failed. Please try again
+                                        after some time.</p>
+                                    <A href="#">
+                                        <button class="back_to_home_btn">back to home</button>
+                                    </A>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

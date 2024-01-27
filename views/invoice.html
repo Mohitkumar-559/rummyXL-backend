@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP FUNWARE & TECHNOLOGIES PVT LTD</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'Arial Narrow';
+        src: url('ArialNarrow.eot');
+        src: url('ArialNarrow.eot?#iefix') format('embedded-opentype'),
+            url('ArialNarrow.woff2') format('woff2'),
+            url('ArialNarrow.woff') format('woff'),
+            url('ArialNarrow.ttf') format('truetype'),
+            url('ArialNarrow.svg#ArialNarrow') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Arial';
+        src: url('Arial-Mdm.eot');
+        src: url('Arial-Mdm.eot?#iefix') format('embedded-opentype'),
+            url('Arial-Mdm.woff2') format('woff2'),
+            url('Arial-Mdm.woff') format('woff'),
+            url('Arial-Mdm.ttf') format('truetype'),
+            url('Arial-Mdm.svg#Arial-Mdm') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+
+    @font-face {
+        font-family: 'Arial';
+        src: url('Arial-Black.eot');
+        src: url('Arial-Black.eot?#iefix') format('embedded-opentype'),
+            url('Arial-Black.woff2') format('woff2'),
+            url('Arial-Black.woff') format('woff'),
+            url('Arial-Black.ttf') format('truetype'),
+            url('Arial-Black.svg#Arial-Black') format('svg');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Arial';
+        src: url('ArialMT.eot');
+        src: url('ArialMT.eot?#iefix') format('embedded-opentype'),
+            url('ArialMT.woff2') format('woff2'),
+            url('ArialMT.woff') format('woff'),
+            url('ArialMT.ttf') format('truetype'),
+            url('ArialMT.svg#ArialMT') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Arial Narrow';
+        src: url('ArialNarrow-Bold.eot');
+        src: url('ArialNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+            url('ArialNarrow-Bold.woff2') format('woff2'),
+            url('ArialNarrow-Bold.woff') format('woff'),
+            url('ArialNarrow-Bold.ttf') format('truetype'),
+            url('ArialNarrow-Bold.svg#ArialNarrow-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Arial';
+        src: url('Arial-BoldMT.eot');
+        src: url('Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+            url('Arial-BoldMT.woff2') format('woff2'),
+            url('Arial-BoldMT.woff') format('woff'),
+            url('Arial-BoldMT.ttf') format('truetype'),
+            url('Arial-BoldMT.svg#Arial-BoldMT') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+
+    @font-face {
+        font-family: 'Arial';
+        src: url('Arial-BoldMT_1.eot');
+        src: url('Arial-BoldMT_1.eot?#iefix') format('embedded-opentype'),
+            url('Arial-BoldMT_1.woff2') format('woff2'),
+            url('Arial-BoldMT_1.woff') format('woff'),
+            url('Arial-BoldMT_1.ttf') format('truetype'),
+            url('Arial-BoldMT_1.svg#Arial-BoldMT') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Arial CE';
+        src: url('Arial-BoldMT_2.eot');
+        src: url('Arial-BoldMT_2.eot?#iefix') format('embedded-opentype'),
+            url('Arial-BoldMT_2.woff2') format('woff2'),
+            url('Arial-BoldMT_2.woff') format('woff'),
+            url('Arial-BoldMT_2.ttf') format('truetype'),
+            url('Arial-BoldMT_2.svg#Arial-BoldMT') format('svg');
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Arial CE';
+        src: url('ArialCE.eot');
+        src: url('ArialCE.eot?#iefix') format('embedded-opentype'),
+            url('ArialCE.woff2') format('woff2'),
+            url('ArialCE.woff') format('woff'),
+            url('ArialCE.ttf') format('truetype'),
+            url('ArialCE.svg#ArialCE') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Arial';
+        src: url('Arial-Lgt.eot');
+        src: url('Arial-Lgt.eot?#iefix') format('embedded-opentype'),
+            url('Arial-Lgt.woff2') format('woff2'),
+            url('Arial-Lgt.woff') format('woff'),
+            url('Arial-Lgt.ttf') format('truetype'),
+            url('Arial-Lgt.svg#Arial-Lgt') format('svg');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    html {
+        zoom: 0.7
+    }
+
+    body {
+        font-family: 'Arial';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    *,
+    ::before,
+    ::after {
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 710px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .top_head {
+        width: 100%;
+        float: left;
+        padding-top: 30px;
+    }
+
+    address {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .top_head .left_sec {
+        width: 50%;
+        float: left;
+    }
+
+    .top_head .left_sec img {
+        max-width: 120px;
+    }
+
+    .top_head .left_sec h4 {
+        margin: 0 0 10px;
+    }
+
+    .top_head .right_sec {
+        width: 50%;
+        float: left;
+        padding-left: 70px;
+        padding-top: 60px;
+    }
+
+    .top_head .right_sec td {
+        width: auto;
+        padding: 0;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 800;
+    }
+
+    .top_head .right_sec td.bold {
+        padding-left: 15px;
+    }
+
+    .top_head .right_sec h2 {
+        margin-bottom: 27px;
+        margin-left: 10px;
+    }
+
+    table tbody td {
+        width: 55%;
+        font-size: 13px;
+        font-weight: 800;
+        color: #0e0e0e;
+        padding: 0 25px;
+    }
+
+    table tbody td.bold {
+        color: #000 !important;
+        font-weight: 400;
+    }
+
+    .bill_details {
+        width: 100%;
+        float: left;
+        padding-top: 15px;
+    }
+
+    .bill_details .container {
+        max-width: 710px;
+    }
+
+    .title_sec {
+        background: linear-gradient(156deg, rgba(187, 78, 75, 1) 0%, rgba(116, 45, 44, 1) 94%);
+        padding: 6px 15px 5px;
+        margin-right: 20px;
+        box-shadow: 0px 0px 0px 2px #ccc;
+        position: relative;
+    }
+
+    .title_sec::after {
+        content: '';
+        background: url("data:image/svg+xml,%3Csvg width='23' height='14' viewBox='0 0 23 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_561_5707' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='0' y='0' width='23' height='14'%3E%3Cpath d='M22.987 0.540771H0.666992V13.2208H22.987V0.540771Z' fill='white'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_561_5707)'%3E%3Cpath opacity='0.5' fill-rule='evenodd' clip-rule='evenodd' d='M-494.533 0.540771L-517.263 13.6608H0.237305L22.9673 0.540771H-494.533Z' fill='%23E5B8B7'/%3E%3C/g%3E%3C/svg%3E") no-repeat;
+        background-size: cover;
+        position: absolute;
+        bottom: -1px;
+        right: -25px;
+        width: 23px;
+        height: 14px;
+    }
+
+    .title_sec h4 {
+        color: #fff;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .table_sec_info {
+        width: 100%;
+        float: left;
+        padding: 10px 0 0;
+    }
+
+    .table_sec_info table {
+        width: 100%;
+    }
+
+    .service_details {
+        width: 100%;
+        float: left;
+        padding-top: 15px;
+    }
+
+    .service_details table tbody tr {
+        position: relative;
+        padding: 3px 0;
+    }
+
+    .service_details table tbody tr td {
+        padding-top: 1px;
+        padding-bottom: 2px;
+    }
+
+    .service_details table tbody tr td,
+    .bill_details table tbody tr td {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .service_details table tbody tr td.bold,
+    .bill_details table tbody tr td.bold {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .amount_info {
+        width: 100%;
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .amount_info table {
+        width: 100%;
+        padding-bottom: 35px;
+    }
+
+    .amount_info table td {
+        font-size: 14px;
+    }
+
+    .amount_info .main_bg {
+        background-color: #5dc19e;
+    }
+
+    .amount_info .main_bg td {
+        color: #fff;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .amount_info span {
+        color: #ccc;
+        font-weight: 600;
+        font-size: 16px;
+        padding-left: 25px;
+    }
+
+    .amount_info .main_bg .inner_sec {
+        max-width: 434px;
+    }
+
+    .amount_info .main_bg .inner_sec h4 {
+        display: inline-block;
+        padding-left: 12px;
+    }
+
+    .amount_info .main_bg .inner_sec span {
+        float: right;
+        color: #fff;
+        font-weight: 500;
+    }
+</style>
+
+<body>
+    <section class="top_head">
+        <div class="container">
+            <div class="left_sec">
+                <img src="https://artoon-pinochle.s3.amazonaws.com/logo.png" alt="">
+                <h4 style="font-style: normal;">JP FUNWARE & TECHNOLOGIES PVT LTD</h4>
+                <address style="font-style: normal;">Office 41,42,43, Fourth Floor, plot no. 250, Udyog Vihar Phase 4,
+                    Gurugram, Haryana – 122015, India</address>
+            </div>
+            <div class="right_sec">
+                <h2 style="font-style: normal;">Tax Invoice</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="font-style: normal;">GSTIN No:</td>
+                            <td style="font-style: normal;" class="bold">06AAICS4958G1Z1</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">PAN No:</td>
+                            <td style="font-style: normal;" class="bold">AAICS4958G</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">CIN:</td>
+                            <td style="font-style: normal;" class="bold">U72100DL2003PTC121218</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Game:</td>
+                            <td style="font-style: normal;" class="bold">Rummy XL</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="bill_details">
+        <div class="container">
+            <div class="title_sec">
+                <h4>Bill to Details:</h4>
+            </div>
+            <div class="table_sec_info">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="font-style: normal;">User ID:</td>
+                            <td style="font-style: normal;" class="bold">{{userId}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Transaction ID / Game ID:</td>
+                            <td style="font-style: normal;" class="bold">{{tranId}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Name:</td>
+                            <td style="font-style: normal;" class="bold">{{userName}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Mobile:</td>
+                            <td style="font-style: normal;" class="bold">{{tel}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Email:</td>
+                            <td style="font-style: normal;" class="bold">{{email}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Place of Supply(POS):</td>
+                            <td style="font-style: normal;" class="bold">{{state}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Payment Reference:</td>
+                            <td class="bold">Wallet Payment</td>
+                        </tr>
+                        <tr>
+                            <td>Invoice No:</td>
+                            <td style="font-style: normal;" class="bold">{{invoiceNo}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Invoice Date:</td>
+                            <td style="font-style: normal;" class="bold">{{invoiceDate}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Whether Tax is payable on Reverse Charge Credit Period:
+                            </td>
+                            <td style="font-style: normal;" class="bold">No</td>
+                        </tr>
+                        <!-- <tr>
+                            <td style="font-style: normal;"> Charge Credit Period: </td>
+                            <td style="font-style: normal;" class="bold"> Not Applicable </td>
+                        </tr> -->
+                        <tr>
+                            <td style="font-style: normal;">Credit Period:</td>
+                            <td style="font-style: normal;" class="bold">NA</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="service_details">
+        <div class="container">
+            <div class="title_sec">
+                <h4 style="font-style: normal;">Service Details:</h4>
+            </div>
+            <div class="table_sec_info">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="font-style: normal;">Service Description:</td>
+                            <td style="font-style: normal;" class="bold">Supply of Online Gaming Services</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">HSN/ SAC Code :</td>
+                            <td style="font-style: normal;" class="bold">998439</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">UQC Qty:</td>
+                            <td style="font-style: normal;" class="bold">1</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Gross Taxable Value (Rs.)</td>
+                            <td style="font-style: normal;" class="bold">{{grossValue}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Discount:</td>
+                            <td style="font-style: normal;" class="bold">{{discount}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">Taxable value:</td>
+                            <td style="font-style: normal;" class="bold">{{taxableValue}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">CGST Amount @ 9%</td>
+                            <td style="font-style: normal;" class="bold">{{cgst}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">SGST/UTGST Amount @ 9%</td>
+                            <td style="font-style: normal;" class="bold">{{sgst}}</td>
+                        </tr>
+                        <tr>
+                            <td style="font-style: normal;">IGST Amount @ 18.0%</td>
+                            <td style="font-style: normal;" class="bold">{{igst}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="amount_info">
+        <div class="container">
+            <div class="title_sec main_bg">
+                <div class="inner_sec">
+                    <h4 style="font-style: normal;">Grand Total of Invoice:</h4>
+                    <span style="font-style: normal;font-weight: 700;">{{totalAmount}}</span>
+                </div>
+            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="padding-top: 10px; font-style: normal;width: auto;float: left;padding-right: 0;">
+                            Amount in Words: </td>
+                        <td style="font-style: normal;width: auto;float: left;padding-top: 10px;padding-left: 7px;"
+                            class="bold">Rupees {{amountInWord}} Paisa Only</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <span style="font-style: normal;">*This is a computer generated invoice and does not require
+                signature</span>
+        </div>
+    </section>
+</body>
+
+</html>

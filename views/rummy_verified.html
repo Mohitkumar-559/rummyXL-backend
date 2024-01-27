@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 200;
+            src: url(./fonts/Roboto-Thin.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 300;
+            src: url(./fonts/Roboto-Light.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 400;
+            src: url(./fonts/Roboto-Regular.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 500;
+            src: url(./fonts/Roboto-Medium.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 700;
+            src: url(./fonts/Roboto-Bold.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 900;
+            src: url(./fonts/Roboto-Black.woff2) format("woff2");
+        }
+
+        .rummy_verified_email_body_section p,
+        .rummy_verified_email_body_section h2 {
+            margin: 0;
+        }
+
+        .rummy_verified_email_body_section a {
+            text-decoration: none;
+        }
+
+        .rummy_verified_email_body_section {
+            margin: 0;
+        }
+
+        .rummy_verified_email_body_section * {
+            box-sizing: border-box;
+            font-family: 'roboto';
+        }
+
+        .verified_email {
+            background: #5a9cff;
+            width: 100%;
+            padding: 40px;
+        }
+
+        .verified_email_sec {
+            width: 100%;
+            max-width: 335px;
+            height: 100%;
+            margin: 0 auto;
+            border-radius: 10px;
+            background: url(https://artoon-pinochle.s3.us-east-1.amazonaws.com/prithvi_rummy/tab_bg.png) no-repeat;
+            background-size: cover;
+            padding: 40px 0 35px 0;
+            display: block;
+            position: relative;
+        }
+
+        .verified_email_sec .verified_email_icon_box {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #3f9eff;
+            margin: 0 auto;
+        }
+
+        .verified_email_sec>tr {
+            width: 100%;
+            display: flex;
+        }
+
+        .verified_email_sec>tr>td {
+            width: 100%;
+        }
+
+        .verified_email_sec .verified_email_icon_box>i {
+            color: #fff;
+            font-size: 22px;
+        }
+
+        .verified_email_sec::before {
+            content: '';
+            position: absolute;
+            bottom: 17px;
+            left: -24px;
+            background: url(https://artoon-pinochle.s3.us-east-1.amazonaws.com/prithvi_rummy/Ellipse_1.png) no-repeat;
+            width: 36px;
+            height: 36px;
+        }
+
+        .verified_email_sec::after {
+            content: '';
+            position: absolute;
+            top: -42px;
+            right: -15px;
+            background: url(https://artoon-pinochle.s3.us-east-1.amazonaws.com/prithvi_rummy/Ellipse_2.png) no-repeat;
+            width: 38px;
+            height: 29px;
+        }
+
+        .verified_text {
+            font-size: 16px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        .verified_text_para {
+            font-size: 12px;
+            text-align: center;
+            padding: 0 15px 18px 15px;
+        }
+
+        .verified_text_btn {
+            background: #3f9eff;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 14px;
+            width: 52px;
+            height: 22px;
+            margin: 0 auto;
+            border: 1px solid #3f9eff;
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+
+        .verified_text_btn:hover {
+            color: #3f9eff;
+            background: #fff;
+        }
+
+        .rummy_verified_email_body_section>a {
+            text-decoration: none;
+        }
+
+        @media(max-width: 768px) {
+            .verified_email_sec {
+                padding: 30px 0 30px 0;
+            }
+
+            .verified_email {
+                padding: 40px 15px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="rummy_verified_email_body_section">
+    <table class="verified_email">
+        <tbody class="verified_email_sec">
+            <tr>
+                <td>
+                    <div class="verified_email_icon_box">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 class="verified_text">
+                        Verified !
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="verified_text_para">
+                        You have successfully verified account.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#">
+                        <button class="verified_text_btn">
+                            Ok
+                        </button>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

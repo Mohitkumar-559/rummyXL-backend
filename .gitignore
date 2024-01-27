@@ -1,0 +1,11 @@
+
+config.json
+node_modules
+package-lock.json
+.env
+logs
+.env.artoon.dev
+config.json.artoon.dev
+dev.config.json
+dev.env
+certificate

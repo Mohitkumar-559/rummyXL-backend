@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 200;
+            src: url(./fonts/Roboto-Thin.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 300;
+            src: url(./fonts/Roboto-Light.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 400;
+            src: url(./fonts/Roboto-Regular.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 500;
+            src: url(./fonts/Roboto-Medium.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 700;
+            src: url(./fonts/Roboto-Bold.woff2) format("woff2");
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-weight: 900;
+            src: url(./fonts/Roboto-Black.woff2) format("woff2");
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        ul,
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Roboto';
+        }
+
+        .container {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .RummyXL {
+            padding-bottom: 20px;
+            max-width: 100%;
+            display: block;
+        }
+
+        .container tbody tr td>p {
+            padding-bottom: 20px;
+            line-height: 150%;
+        }
+
+        .guide_lines>li>p {
+            line-height: 150%;
+        }
+
+        .container>.guide_text {
+            padding-bottom: 20px;
+        }
+
+        .guide_lines {
+            padding-bottom: 60px;
+        }
+
+        .query_at {
+            padding-bottom: 60px;
+        }
+
+        @media (max-width: 768px) {
+
+            .RummyXL,
+            .container tbody tr td>p,
+            .container>.guide_text,
+            .guide_lines {
+                padding-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table class="container">
+        <thead>
+            <tr>
+                <td>
+                    <img src="https://rummyxl-cms-data.s3.ap-south-1.amazonaws.com/images/poster_3.png"
+                        alt="RummyXL" class="RummyXL">
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <p>Dear Player,</p>
+                    <p>Your PAN has been verified. Please upload your bank account details to complete your KYC.
+                        <!--  Click
+                        link
+                        <a href="/https://nrh9x.app.goo.gl/grWB"> https://nrh9x.app.goo.gl/grWB</a> to  -->
+                        Please upload bank
+                        account document to complete your KYC.
+                    </p>
+                    <p class="guide_text">Guideline for Cancelled cheque/bank statement/ Passbook</p>
+                    <ul class="guide_lines">
+                        <li>
+                            <p> Please ensure your name, bank account number and IFSC are clearly visible
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Please ensure your name on PAN card and name on Cancelled cheque/bank statement’
+                                Passbook should match</p>
+                        </li>
+                        <li>
+                            <p>Please provide pdf or jpg/jpeg/png format</p>
+                        </li>
+                        <li>
+                            <p>Size should be smaller than 8 MB</p>
+                        </li>
+                    </ul>
+                    <p class="query_at">
+                        For any query please write to us at <a href="support@RummyXL.com">support@RummyXL.com</a></p>
+                    <p>Team RummyXL</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

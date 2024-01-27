@@ -1,0 +1,68 @@
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+  var options = {
+    key: "<%- razorpayKey %>",
+    amount: "<%- amount %>",
+    currency: "INR",
+    name: "RummyXL",
+    order_id: '<%- order_id %>',
+    prefill: {
+      /* email: "<%- email %>", */
+      contact: "<%- phn %>",
+    },
+    retry: { enabled: false, max_count: 1 },
+    callback_url: `<%- url %>/add-cash-callback`,
+    redirect: true,
+    hidden: {
+      contact: true,
+      email: true
+    },
+    config: {
+      display: {
+        /* blocks: {
+          banks: {
+            name: 'All payment methods',
+            instruments: [
+              {
+                method: 'upi'
+              },
+              {
+                method: 'wallet'
+              },
+              {
+                method: 'card'
+              },
+              {
+                method: 'netbanking'
+              },
+            ],
+          },
+        },
+        sequence: ['block.banks'], */
+        hide: [
+          {
+            method: 'paylater'
+          }
+        ],
+        preferences: {
+          show_default_blocks: true,
+        },
+        language: 'en'
+      },
+    },
+    modal: {
+      backdropclose: true,
+      escape: true,
+      handleback: true,
+      confirm_close: true,
+      animation: true,
+      ondismiss: () => {
+        window.location.replace(`<%- url %>/add-cash-callback`);
+      }
+    },
+    send_sms_hash: true,
+    allow_rotation: true
+  };
+  var rzp1 = new Razorpay(options);
+  rzp1.open();
+</script>
